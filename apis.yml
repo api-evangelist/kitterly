@@ -1,19 +1,48 @@
 aid: kitterly
 name: Kitterly
-description: Kitterly is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Kitterly, Inc. was a direct-to-consumer craft commerce startup that sold
+  knitting and crochet kits, yarn, needles and notions online, and ran a monthly Kit
+  Club subscription that shipped members a pattern plus the yarn required to complete
+  it. Kitterly was backed by 500 Global (500 Startups) along with Manatt Ventures and
+  the Jordan x 2080 accelerator. The company was later consolidated under the Cotton
+  Cuts brand, a Chesterfield, Missouri based quilting fabric shop selling designer
+  die-cut and pre-cut fabric, threads, patterns and notions, plus quilting memberships
+  and the Puzzle Mystery Quilt program, serving roughly 4,000 members across more than
+  15 countries. The kitterly.com domain now redirects to cottoncuts.com. The business
+  is a consumer retail and subscription commerce operation running on a hosted
+  e-commerce platform, and it publishes no public API, developer portal, SDKs or
+  machine-readable specifications.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn11.bigcommerce.com/s-6hfyidt5z0/images/stencil/original/image-manager/cotton-cuts-ribbon-color-updated.png
 url: https://raw.githubusercontent.com/api-evangelist/kitterly/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 500-global
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profile
+x-tier-reason: no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- E-Commerce
+- Retail
+- Subscriptions
+- Consumer
+- Crafts
+- Textiles
+- Direct to Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +51,29 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://cottoncuts.com
+  url: https://www.cottoncuts.com/
+- type: About
+  url: https://www.cottoncuts.com/about-us/
+- type: Support
+  url: https://www.cottoncuts.com/contact-us/
+- type: HelpCenter
+  url: https://www.cottoncuts.com/faqs
+- type: Blog
+  url: https://www.cottoncuts.com/blog
+- type: Pricing
+  url: https://www.cottoncuts.com/memberships
+- type: Login
+  url: https://www.cottoncuts.com/login.php
+- type: TermsOfService
+  url: https://www.cottoncuts.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.cottoncuts.com/privacy-policy
+- type: DomainSecurity
+  url: security/kitterly-domain-security.yml
+- type: LLMsTxt
+  url: llms/kitterly-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
