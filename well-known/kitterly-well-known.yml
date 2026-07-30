@@ -1,0 +1,52 @@
+generated: '2026-07-19'
+method: searched
+source: live probes of the Kitterly / Cotton Cuts web hosts
+note: No /.well-known/ discovery documents are published on any Kitterly or Cotton
+  Cuts host. Every probed path returned 404. Recorded so future runs do not re-probe
+  blindly. No WellKnown or SecurityTxt pointer is wired in apis.yml because nothing
+  was found.
+hosts:
+- host: https://www.cottoncuts.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 404
+  - path: /robots.txt
+    status: 200
+    captured: false
+- host: https://sale.kitterly.com
+  note: Former Kitterly Shopify storefront. Root now returns 404; the /llms.txt path
+    returns HTTP 200 but serves the generic Shopify error page, not an llms.txt
+    document, so nothing was saved.
+  documents:
+  - path: /
+    status: 404
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 200
+    captured: false
+    reason: Shopify generic error page body, not an llms.txt document
+redirects:
+- from: https://kitterly.com
+  to: https://www.cottoncuts.com/kitterly
+  status: 404
+  note: kitterly.com resolves but the redirect target itself is a 404 on the Cotton
+    Cuts site.
