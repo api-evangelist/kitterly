@@ -12,6 +12,17 @@ description: 'Kitterly, Inc. was a direct-to-consumer craft commerce startup tha
   is a consumer retail and subscription commerce operation running on a hosted
   e-commerce platform, and it publishes no public API, developer portal, SDKs or
   machine-readable specifications.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
