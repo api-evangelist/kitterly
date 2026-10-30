@@ -64,21 +64,84 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Kitterly, Inc. was a direct-to-consumer craft commerce startup that sold knitting and crochet kits, yarn, needles and notions online, and ran a monthly Kit Club subscription that shipped members a pattern plus the yarn required to complete it. Kitterly was backed by 500 Global (500 Startups) along with Manatt Ventures and the Jordan x 2080 accelerator.
+Kitterly, Inc. was a direct-to-consumer craft commerce startup that sold knitting and crochet kits, yarn, needles and notions online, and ran a monthly Kit Club subscription that shipped members a pattern plus the yarn required to complete it. Kitterly was backed by 500 Global (500 Startups) along with Manatt Ventures and the Jordan x 2080 accelerator. The company was later consolidated under the Cotton Cuts brand, a Chesterfield, Missouri based quilting fabric shop selling designer die-cut and pre-cut fabric, threads, patterns and notions, plus quilting memberships and the Puzzle Mystery Quilt program, serving roughly 4,000 members across more than 15 countries. The kitterly.com domain now redirects to cottoncuts.com. The business is a consumer retail and subscription commerce operation running on a hosted e-commerce platform, and it publishes no public API, developer portal, SDKs or machine-readable specifications.
 
-The company was later consolidated under the **Cotton Cuts** brand — a Chesterfield, Missouri based quilting fabric shop selling designer die-cut and pre-cut fabric, threads, patterns and notions, plus quilting memberships and the Puzzle Mystery Quilt program, serving roughly 4,000 members across more than 15 countries. `kitterly.com` now redirects to `cottoncuts.com`.
+**Areas:** Company · E-Commerce · Retail · Subscription · Consumer · Crafts · Textiles · Direct to Consumer
 
-## API surface
+## Kitterly on APIs.io
 
-**None.** Kitterly / Cotton Cuts publishes no public API, developer portal, API reference, SDKs, CLI, webhooks or machine-readable specifications. Every `/.well-known/` discovery path probed returns 404 (see `well-known/kitterly-well-known.yml`). This repo is an identity profile, not an API profile.
+Everything profiled for Kitterly is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/kitterly/](https://apis.io/providers/kitterly/)** — or go straight to one of the APIs or properties below.
 
-## Artifacts
+### Published properties
 
-| Artifact | File |
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Kitterly Domain Security](https://apis.io/security/kitterly/kitterly-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.cottoncuts.com/)
+- [Pricing](https://www.cottoncuts.com/memberships)
+- [Support](https://www.cottoncuts.com/contact-us/)
+- [Blog](https://www.cottoncuts.com/blog)
+- [Terms of service](https://www.cottoncuts.com/terms-and-conditions)
+- [Privacy policy](https://www.cottoncuts.com/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 14.4** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
 |---|---|
-| APIs.json profile | `apis.yml` |
-| Domain security (probed) | `security/kitterly-domain-security.yml` |
-| Well-known probe record | `well-known/kitterly-well-known.yml` |
-| llms.txt (generated) | `llms/kitterly-llms.txt` |
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 38.2 |
 
-Backed by: 500-global — https://www.cottoncuts.com/
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/kitterly/](https://apis.io/providers/kitterly/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Kitterly: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/kitterly/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
